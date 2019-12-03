@@ -23,7 +23,7 @@
   "main": "./src/index.js",
   "scripts": {
     "build": "vuepress build docs",
-    "dev": "vuepress dev docs --port $PORT",
+    "dev": "vuepress dev docs",
     "lint": "eslint --ext .js,.vue src docs",
     "publish": "git push origin master:master --tags",
     "serve": "vuepress serve docs",
@@ -51,7 +51,8 @@
     ]
   },
   "dependencies": {
-    "vuepress-plugin-serve": "^1.1.0"
+    "vuepress-plugin-serve": "^1.1.0",
+    "vuex": "^3.1.2"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
