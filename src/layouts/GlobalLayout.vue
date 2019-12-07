@@ -1,6 +1,11 @@
 <template>
-  <div id="vuepress-theme-vook">
-    Hello
+  <div id="vook-app">
+    <div class="code-js">
+      js
+    </div>
+    <div class="code-css">
+      css
+    </div>
   </div>
 </template>
 
@@ -10,4 +15,7 @@ export default {
 }
 </script>
 
-<style lang="stylus" src="@theme/styles/index.styl"/>
+<style lang="stylus" scoped>
+  #vook-app
+    background-color $primary-6
+</style>
