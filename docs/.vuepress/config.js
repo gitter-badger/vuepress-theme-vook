@@ -9,13 +9,13 @@ module.exports = {
   locales: {
     '/': {
       lang: 'en-US',
-      title: 'vuepress-theme-vook',
-      description: 'Write your book by vuepress',
+      title: 'Writing life',
+      description: 'A book is a dream that you hold in your hand',
     },
     '/zh/': {
       lang: 'zh-CN',
-      title: 'VuePress 主题 - Vook',
-      description: '书写属于你自己的人生',
+      title: '书写人生',
+      description: '书是您手中的梦想',
     },
   },
   evergreen: true,

@@ -1,4 +1,5 @@
 const state = {
+  lang: 'en-US',
   consoleTime: 0,
 }
 
