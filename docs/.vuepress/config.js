@@ -1,42 +1,26 @@
 const path = require('path')
+const head = require('./config/head')
+const themeConfig = require('./config/themeConfig')
 module.exports = {
   base: '/',
   title: 'vuepress-theme-vook',
   description: 'Write your book by vuepress',
-  head: [
-    ['meta', {
-      name: 'viewport',
-      content: 'width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0',
-    }],
-    ['meta', {name: 'X-UA-Compatible', content: 'ie=edge'}],
-    ['meta', {name: 'keywords', content: 'cnguu,vook'}],
-    ['meta', {name: 'apple-mobile-web-app-capable', content: 'yes'}],
-    ['meta', {name: 'apple-mobile-web-app-status-bar-style', content: 'black'}],
-    ['link', {rel: 'icon', href: 'https://pic.gleehub.com/20171231/favicon.ico'}],
-  ],
+  head,
   locales: {
     '/': {
       lang: 'en-US',
+      title: 'vuepress-theme-vook',
+      description: 'Write your book by vuepress',
+    },
+    '/zh/': {
+      lang: 'zh-CN',
+      title: 'VuePress 主题 - Vook',
+      description: '书写属于你自己的人生',
     },
   },
   evergreen: true,
-  theme: path.resolve(__dirname, '../../src'),
-  themeConfig: {
-    nav: [
-      {
-        text: 'Home',
-        link: '/',
-      },
-      {
-        text: 'Guide',
-        link: '/guide/',
-      },
-      {
-        text: 'Config Page',
-        link: '/config',
-      },
-    ],
-  },
+  theme: path.resolve(__dirname, '../../vook'),
+  themeConfig,
   host: 'localhost',
   port: 2234,
   dest: 'public',

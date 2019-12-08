@@ -18,13 +18,13 @@
   "license": "MIT",
   "author": "cnguu <www@cnguu.cn>",
   "files": [
-    "src/"
+    "vook/"
   ],
-  "main": "./src/index.js",
+  "main": "./vook/index.js",
   "scripts": {
     "build": "vuepress build docs",
     "dev": "vuepress dev docs",
-    "lint": "eslint --ext .js,.vue src docs",
+    "lint": "eslint --ext .js,.vue vook docs",
     "publish": "git push origin master:master --tags",
     "serve": "vuepress serve docs",
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 1 && git add CHANGELOG.md"
