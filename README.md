@@ -1,5 +1,7 @@
 # VuePress Theme - Vook
 
+[![Join the chat at https://gitter.im/vuepress-theme-vook/community](https://badges.gitter.im/vuepress-theme-vook/community.svg)](https://gitter.im/vuepress-theme-vook/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ![](https://img.shields.io/npm/dt/vuepress-theme-vook.svg)
 ![](https://img.shields.io/static/v1.svg?label=VuePress&message=1.2.0&color=informational)
 ![](https://img.shields.io/static/v1.svg?label=License&message=MIT&color=critical)
